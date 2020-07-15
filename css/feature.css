@@ -1,0 +1,36 @@
+.feature-select {
+  cursor: pointer;
+}
+
+.dropdown-feature {
+  border: 0px;
+  box-shadow: none;
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.btnLoadMore {
+}
+
+.loadMore {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  color: #42BF5D;
+  border-width: 0 1px 1px 0;
+}
+
+.package-description p {
+  display: none;
+}
+
+.info-buyer {
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: 20px 0px; */
+}

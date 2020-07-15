@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1050">
+  <defs>
+    <path id="a"
+      d="M1329.469 881c134.757 0 244 109.242 244 244 0 134.757-109.243 244-244 244-134.758 0-244-109.243-244-244 0-134.758 109.242-244 244-244z" />
+    <path id="b"
+      d="M1761.469-201c144.146 0 261 116.854 261 261 0 144.146-116.854 261-261 261-144.147 0-261-116.854-261-261 0-144.146 116.853-261 261-261z" />
+    <path id="d"
+      d="M783.482-2225.7L-277.65-949.327C-497.732-684.603-461.649-291.614-197.056-71.56L969.18 898.36c264.593 220.053 657.5 183.84 877.581-80.884L2907.894-458.897c220.082-264.724 183.999-657.713-80.594-877.766l-1166.236-969.92c-264.593-220.053-657.5-183.84-877.582 80.883z" />
+    <path id="e"
+      d="M781.223-2239.713L-279.909-963.339c-220.082 264.723-184 657.712 80.594 877.765L966.92 884.346c264.592 220.053 657.499 183.84 877.581-80.883L2905.634-472.91c220.082-264.723 184-657.713-80.593-877.766l-1166.236-969.92c-264.593-220.053-657.5-183.84-877.582 80.883z" />
+    <linearGradient id="f" x1="-423.99" x2="3050.01" y1="-717.66" y2="-718.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4085f6" />
+      <stop offset="1" stop-color="#1760d7" />
+    </linearGradient>
+    <mask id="i" width="2.01" height="2.01" x="-1.01" y="-1.01">
+      <path d="M1081.8 877.8h495.4v494.4h-495.4z" fill="#fff" />
+      <use xlink:href="#a" width="100%" height="100%" />
+    </mask>
+    <filter id="h" width="591.1" height="593.6" x="1035" y="831" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.1" dy="5.6" in="SourceGraphic" result="FeOffset1123Out" />
+      <feGaussianBlur in="FeOffset1123Out" result="FeGaussianBlur1124Out"
+        stdDeviation="14.719999999999999 14.719999999999999" />
+    </filter>
+    <mask id="l" width="2.01" height="2.01" x="-1.01" y="-1.01">
+      <path d="M1496.8-204.2h529.4v528.4h-529.4z" fill="#fff" />
+      <use xlink:href="#b" width="100%" height="100%" />
+    </mask>
+    <filter id="k" width="625.1" height="627.6" x="1450" y="-251" filterUnits="userSpaceOnUse">
+      <feOffset dx="2.1" dy="5.6" in="SourceGraphic" result="FeOffset1139Out" />
+      <feGaussianBlur in="FeOffset1139Out" result="FeGaussianBlur1140Out"
+        stdDeviation="14.719999999999999 14.719999999999999" />
+    </filter>
+    <clipPath id="j">
+      <use xlink:href="#a" width="100%" height="100%" fill="#1d72fe" />
+    </clipPath>
+    <clipPath id="g">
+      <path
+        d="M1091.24 981.684l31.587 13.007 86.4 27.87 78.967 14.865 72.464 5.574 89.186-4.645 55.742-11.148 78.038-26.013-162.58-193.237-207.172 9.29-158.863 92.902z"
+        fill="#22d71f" fill-opacity=".2" stroke="#000" />
+    </clipPath>
+    <clipPath id="c">
+      <path fill="#222" stroke="#fbfbfb" stroke-width=".4" d="M425.2 2473.106h1921.6V3523.8H425.2z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#c)" transform="matrix(.99917 0 0 1 -424.846 -2473.355)">
+    <use xlink:href="#d" width="100%" height="100%" fill="#226be2" transform="translate(424 2465)" />
+    <g transform="translate(424 2465)">
+      <use xlink:href="#e" width="100%" height="100%" fill="#4085f6" />
+      <use xlink:href="#e" width="100%" height="100%" fill="url(#f)" />
+    </g>
+    <g clip-path="url(#g)" transform="rotate(.887 -156912.98 29459.778)" filter="url(#h)">
+      <use height="100%" width="100%" xlink:href="#a" mask="url(#i)" fill="none" stroke="#221f1f" stroke-width="6.4"
+        stroke-opacity=".2" />
+      <use height="100%" width="100%" xlink:href="#a" fill="#221f1f" fill-opacity=".2" />
+    </g>
+    <g transform="translate(424.17 2453.993)" clip-path="url(#j)" fill="#1d72fe">
+      <use height="100%" width="100%" xlink:href="#d" />
+    </g>
+    <g transform="translate(424 2465)">
+      <g filter="url(#k)">
+        <use mask="url(#l)" xlink:href="#b" width="100%" height="100%" fill="none" stroke="#221f1f" stroke-width="6.4"
+          stroke-opacity=".2" />
+        <use xlink:href="#b" width="100%" height="100%" fill="#221f1f" fill-opacity=".2" />
+      </g>
+      <use xlink:href="#b" width="100%" height="100%" fill="#1d72fe" />
+    </g>
+  </g>
+</svg>
