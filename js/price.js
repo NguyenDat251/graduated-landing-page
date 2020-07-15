@@ -72,7 +72,7 @@ function setUpFeature(data) {
 }
 
 const getFeatures = async () => {
-  await axios.get('http://167.179.80.90:8761/api/gateway/public/features', ).then(function (response) {
+  await axios.get('https://1612145.online/api/gateway/public/features', ).then(function (response) {
       setUpFeature(response.data.data);
       setUpBundle(response.data.data);
     })
@@ -207,7 +207,7 @@ function sendRequest() {
   console.log("requestedFeatures: ", getChoosenFeaturesObject());
 
 
-  axios.post('http://167.179.80.90:8761/api/admin/public/requestfeature', {
+  axios.post('https://1612145.online/api/admin/public/requestfeature', {
     "comboId": isCombo ? choosenCombo.comboId : '',
   "companyId": $("#companyCode").val(),
   "email": $("#emailBuyer").val(),
